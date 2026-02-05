@@ -1,0 +1,17 @@
+[
+  {
+    "input": "Can you send me my invoice details?",
+    "expected_intent": "billing",
+    "min_quality_score": 0.8
+  },
+  {
+    "input": "What are your opening hours?",
+    "expected_intent": "faq",
+    "min_quality_score": 0.8
+  },
+  {
+    "input": "???",
+    "expected_intent": ["unknown","general_query"],
+    "min_quality_score": 0.0
+  }
+]
